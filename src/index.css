@@ -1,0 +1,18 @@
+/* 全局 app 容器 */
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 400px; /* 模拟手机屏幕宽度 */
+    min-height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
